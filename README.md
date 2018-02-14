@@ -1,4 +1,4 @@
-Demo: https://desolate-headland-52669.herokuapp.com
+Demo: https://limitless-caverns-29210.herokuapp.com/index.html#/
 
 # A Vuejs-e-commerce application demo site,
 # using json web token authentication/Laravel RESTful API server
@@ -11,8 +11,11 @@ laravel/tinker: 1.0,
 laravel/passport 4.0,
 stripe/stripe-php 5.7
 
-How to use it
-Clone the repository, cd to the directory, configure the .env file in the root of the folder, define your environment.
+How to use it,
+clone the repository, cd to the directory, configure the .env file in the root of the folder, define your environment.
+
+
+
 
 ``` bash 
 # install the packages
@@ -26,14 +29,22 @@ php artisan serve
 
 ```
 # Frontend:
-webpack,
-React v16,
-React Router 4,
-Redux,
+webpack: 2.6.1,
+vue: 2.3.3,
+vue-core-image-upload: 2.3.10,
+vue-image-upload-resize: 1.1.4,
+vue-resource: 1.3.4,
+vue-router: 2.7.0,
+vue-stripe-checkout: 0.0.4,
+vue-stripe-elements: 0.2.3,
+vuex: 2.3.1,
 Bootstrap 3 components
 
 ``` bash 
 Build Setup
+
+# install dependencies
+npm install
 
 # serve with hot reload at localhost:8080
 npm run dev
