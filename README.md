@@ -40,6 +40,10 @@ vue-stripe-elements: 0.2.3,
 vuex: 2.3.1,
 Bootstrap 3 components
 
+Change the base URL path located at src folder / config.js change the apiDomain value to the <backend url> for example if you use laravel the development server started on http://localhost:8000 and if you're using other server change the endpoint.
+
+
+
 ``` bash 
 Build Setup
 
