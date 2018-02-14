@@ -1,0 +1,6 @@
+[submodule "Laravel-e-commerce-Restful-api-server"]
+	path = Laravel-e-commerce-Restful-api-server
+	url = https://github.com/jessyosmena/Laravel-e-commerce-Restful-api-server
+[submodule "Vuejs-e-commerce-"]
+	path = Vuejs-e-commerce-
+	url = https://github.com/jessyosmena/Vuejs-e-commerce-
