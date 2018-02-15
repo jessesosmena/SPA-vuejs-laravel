@@ -54,6 +54,20 @@ cd to the directory,
 configure the .env file in the root of the project folder, 
 define your environment
 
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=homestead
+DB_USERNAME=homestead
+DB_PASSWORD=secret
+
+MAIL_DRIVER=smtp
+MAIL_HOST=mailtrap.io
+MAIL_PORT=2525
+MAIL_USERNAME=null
+MAIL_PASSWORD=null
+MAIL_ENCRYPTION=null
+
 If you already have a stripe account set the value of secret key at CheckoutController.php 
 Set your secret key: remember to change this to your live secret key in production
 See your keys here: https://dashboard.stripe.com/account/apikeys
