@@ -1,5 +1,7 @@
 Demo: https://limitless-caverns-29210.herokuapp.com/index.html#/
 
+To clone this repository use git clone --recursive 
+
 # A Vuejs-e-commerce application demo site,
 # using json web token authentication/Laravel RESTful API server
 
