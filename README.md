@@ -16,8 +16,7 @@ vue-stripe-elements: 0.2.3,
 vuex: 2.3.1,
 Bootstrap 3 components
 
-Change the base url and or rename the endpoint located at src folder/config.js/apiDomain value to <backend url> for example if you use laravel the development server will start at http://localhost:8000.
-
+How to use it,
 
 ``` bash 
 Build Setup
@@ -32,6 +31,11 @@ npm run dev
 npm run build
 ```
 
+Change the Web API base URL or rename the endpoint located at src folder/config.js/apiDomain change the value to backend url for example if you use laravel as a backend the development server will start at http://localhost:8000.
+
+To render the images change img src at src/components/product/Product.vue/ img src ="backend url"
+
+If you want to use your own stripe account signup to stripe.com then change the API Key / pk_test to your own API key go to src/components/product/Checkout.vue
 
 
 # Backend:
@@ -43,7 +47,12 @@ laravel/passport 4.0,
 stripe/stripe-php 5.7
 
 How to use it,
-clone the repository, cd to the directory, configure the .env file in the root of the folder, define your environment.
+
+Clone the repository, 
+cd to the directory,
+configure the .env file in the root of the project folder, 
+define your environment
+
 
 ``` bash 
 # install the packages
@@ -56,3 +65,5 @@ php artisan migrate
 php artisan serve 
 
 ```
+
+
