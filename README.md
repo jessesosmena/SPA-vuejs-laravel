@@ -33,9 +33,10 @@ npm run build
 
 Change the Web API base URL or rename the endpoint located at src folder/config.js/apiDomain change the value to backend url for example if you use laravel as a backend the development server will start at http://localhost:8000.
 
-To render the images change img src at src/components/product/Product.vue/ img src ="backend url"
+To render the images set img src at src/components/product/Product.vue/ img src ="backend url"
 
-If you want to use your own stripe account signup to stripe.com then change the API Key / pk_test to your own API key go to src/components/product/Checkout.vue
+If you already have a stripe account then set the API Key / pk_test to your own API key go to src/components/product/Checkout.vue
+
 
 
 # Backend:
@@ -52,6 +53,10 @@ Clone the repository,
 cd to the directory,
 configure the .env file in the root of the project folder, 
 define your environment
+
+If you already have a stripe account set the value of secret key at CheckoutController.php 
+Set your secret key: remember to change this to your live secret key in production
+See your keys here: https://dashboard.stripe.com/account/apikeys
 
 
 ``` bash 
