@@ -36,6 +36,7 @@ Change the Web API base URL or rename the endpoint located at src folder/config.
 To render the images set img src at src/components/product/Product.vue/ img src ="backend url"
 
 If you already have a stripe account then set the API Key / pk_test to your own API key go to src/components/product/Checkout.vue
+See your keys here: https://dashboard.stripe.com/account/apikeys
 
 
 
