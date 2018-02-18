@@ -72,7 +72,7 @@ MAIL_USERNAME=null,
 MAIL_PASSWORD=null,
 MAIL_ENCRYPTION=null
 
-If you already have a stripe account set the value of secret key at CheckoutController.php 
+If you already have a stripe account set the value of secret key in CheckoutController.php 
 Set your secret key: remember to change this to your live secret key in production
 See your keys here: https://dashboard.stripe.com/account/apikeys
 
