@@ -7,7 +7,7 @@ any submodules use git clone --recursive
 # using json web token authentication/Laravel RESTful API server
 
 
-# Frontend:
+Frontend:
 webpack: 2.6.1,
 vue: 2.3.3,
 vue-core-image-upload: 2.3.10,
@@ -43,7 +43,7 @@ See your keys here: https://dashboard.stripe.com/account/apikeys
 
 
 
-# Backend:
+Backend:
 php: 5.6.4,
 barryvdh/laravel-cors: 0.11.0,
 laravel/framework: 5.4,
