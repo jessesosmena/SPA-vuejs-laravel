@@ -1,11 +1,10 @@
+# A Vuejs-e-commerce application demo site,
+# using json web token authentication/Laravel RESTful API server
+
 #Demo: https://limitless-caverns-29210.herokuapp.com/index.html#/
 
 To ensure you download everything, including
 any submodules use git clone --recursive 
-
-# A Vuejs-e-commerce application demo site,
-# using json web token authentication/Laravel RESTful API server
-
 
 Frontend:
 webpack: 2.6.1,
@@ -33,15 +32,10 @@ npm run dev
 # build for production with minification
 npm run build
 ```
+Change the Web API base URL or rename the endpoint located at src folder/config.js/apiDomain change the value to backend base url.
 
-Change the Web API base URL or rename the endpoint located at src folder/config.js/apiDomain change the value to backend url for example if you use laravel as a backend the development server will start at http://localhost:8000.
-
-To render the images set img src at src/components/product/Product.vue/ img src ="backend url"
-
-If you already have a stripe account then set the API Key / pk_test to your own API key go to src/components/product/Checkout.vue
+If you already have a stripe account then set the API Key / pk_test to your own API key got to src/components/product/Checkout.vue
 See your keys here: https://dashboard.stripe.com/account/apikeys
-
-
 
 Backend:
 php: 5.6.4,
@@ -72,7 +66,7 @@ MAIL_USERNAME=null,
 MAIL_PASSWORD=null,
 MAIL_ENCRYPTION=null
 
-If you already have a stripe account set the value of secret key in CheckoutController.php 
+Set the value of secret key in CheckoutController.php 
 Set your secret key: remember to change this to your live secret key in production
 See your keys here: https://dashboard.stripe.com/account/apikeys
 
