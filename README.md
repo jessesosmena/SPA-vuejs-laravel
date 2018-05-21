@@ -1,5 +1,4 @@
-# A Vuejs-e-commerce application demo site,
-# using json web token authentication/Laravel RESTful API server
+# A VueJs/Laravel SPA demo site,
 
 #Demo: https://limitless-caverns-29210.herokuapp.com/index.html#/
 
@@ -32,10 +31,6 @@ npm run dev
 # build for production with minification
 npm run build
 ```
-Change the Web API base URL or rename the endpoint located at src folder/config.js/apiDomain change the value to backend base url.
-
-If you already have a stripe account then set the API Key / pk_test to your own API key got to src/components/product/Checkout.vue
-See your keys here: https://dashboard.stripe.com/account/apikeys
 
 Backend:
 php: 5.6.4,
@@ -47,7 +42,7 @@ stripe/stripe-php 5.7
 
 How to use it,
 
-Clone the repository, 
+Clone the repo, 
 cd to the directory,
 configure the .env file in the root of the project folder, 
 define your environment
@@ -65,11 +60,6 @@ MAIL_PORT=2525,
 MAIL_USERNAME=null,
 MAIL_PASSWORD=null,
 MAIL_ENCRYPTION=null
-
-Set the value of secret key in CheckoutController.php 
-Set your secret key: remember to change this to your live secret key in production
-See your keys here: https://dashboard.stripe.com/account/apikeys
-
 
 ``` bash 
 # install the packages
