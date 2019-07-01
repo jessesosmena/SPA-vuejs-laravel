@@ -1,6 +1,6 @@
-# A VueJs/Laravel SPA demo site,
+# A VueJs with Laravel SPA demo site,
 
-#Demo: https://limitless-caverns-29210.herokuapp.com/index.html#/
+# Demo: https://limitless-caverns-29210.herokuapp.com/index.html#/
 
 To ensure you download everything, including
 any submodules use git clone --recursive 
@@ -43,7 +43,7 @@ stripe/stripe-php 5.7
 How to use it,
 
 Clone the repo, 
-cd to the directory,
+cd to directory,
 configure the .env file in the root of the project folder, 
 define your environment
 
