@@ -5,6 +5,7 @@
 To ensure you download everything, including
 any submodules use git clone --recursive 
 
+`
 Frontend:
 webpack: 2.6.1,
 vue: 2.3.3,
@@ -16,6 +17,8 @@ vue-stripe-checkout: 0.0.4,
 vue-stripe-elements: 0.2.3,
 vuex: 2.3.1,
 Bootstrap 3 components
+
+`
 
 How to use it,
 
@@ -31,7 +34,7 @@ npm run dev
 # build for production with minification
 npm run build
 ```
-
+`
 Backend:
 php: 5.6.4,
 barryvdh/laravel-cors: 0.11.0,
@@ -40,9 +43,11 @@ laravel/tinker: 1.0,
 laravel/passport 4.0,
 stripe/stripe-php 5.7
 
+`
+
 How to use it,
 
-Clone the repo, 
+Clone the repository, 
 cd to directory,
 configure the .env file in the root of the project folder, 
 define your environment
