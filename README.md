@@ -47,7 +47,7 @@ Clone the repository,
 cd to directory,
 configure the .env file in the root of the project folder, 
 define your environment
-
+```
 DB_CONNECTION=mysql,
 DB_HOST=127.0.0.1,
 DB_PORT=3306,
@@ -61,7 +61,7 @@ MAIL_PORT=2525,
 MAIL_USERNAME=null,
 MAIL_PASSWORD=null,
 MAIL_ENCRYPTION=null
-
+```
 ``` bash 
 # install the packages
 composer update
